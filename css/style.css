@@ -21,7 +21,7 @@ p {
   margin: 10px 0;
 }
 
-/* Utility class */
+/* Utility class section */
 .container{
   margin: auto;
   max-width: 1100px;
@@ -60,7 +60,7 @@ p {
   color: #333;
 }
 
-/* Navbar */
+/* Navbar section */
 #navbar{
   background: #333;
   color: #fff;
@@ -90,7 +90,7 @@ p {
   color: #f7c88a;
 }
 
-/* Showcase */
+/* Showcase section */
 #showcase{
   background: url('../img/showcase.jpg') no-repeat center center/cover;
   height: 600px;
@@ -109,7 +109,7 @@ p {
   line-height: 1.7em;
 }
 
-/* Home info */
+/* Home info section */
 #home-info{
   height: 400px;
 }
@@ -128,4 +128,15 @@ p {
 }
 #home-info .info-content p{
   padding-bottom: 20px
+}
+
+/* Features section */
+.box{
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i{
+  margin-bottom: 10px;
 }
